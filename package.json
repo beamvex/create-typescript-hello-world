@@ -1,0 +1,45 @@
+{
+  "name": "create-typescript-hello-world",
+  "version": "1.0.0",
+  "description": "A TypeScript project template with ESLint, esbuild, and Prettier",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "create-typescript-hello-world": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beamvex/create-typescript-hello-world.git"
+  },
+  "homepage": "https://github.com/beamvex/create-typescript-hello-world#readme",
+  "bugs": {
+    "url": "https://github.com/beamvex/create-typescript-hello-world/issues"
+  },
+  "files": [
+    "index.js",
+    "template/",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "echo \"Ready to publish create-typescript-hello-world template\""
+  },
+  "keywords": [
+    "typescript",
+    "template",
+    "create",
+    "eslint",
+    "esbuild",
+    "prettier",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Robert Forster <robert.forster@beamvex.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^24.4.0"
+  }
+}
