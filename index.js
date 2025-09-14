@@ -17,6 +17,9 @@ async function createProject() {
     const templateDir = path.join(__dirname, 'template');
     await fs.copy(templateDir, targetDir);
 
+    // mv gitignore to .gitignore
+    await fs.move(path.join(targetDir, 'gitignore'), path.join(targetDir, '.gitignore'));
+
     // Update package.json with project name
     const packageJsonPath = path.join(targetDir, 'package.json');
     const packageJson = await fs.readJson(packageJsonPath);

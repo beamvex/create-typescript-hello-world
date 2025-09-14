@@ -1,6 +1,6 @@
 {
   "name": "create-typescript-hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript project template with ESLint, esbuild, and Prettier",
   "main": "index.js",
   "type": "commonjs",
